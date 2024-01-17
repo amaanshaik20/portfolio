@@ -258,13 +258,14 @@
                 <a href="https://github.com/amaanshaik20"><i class='bx bxl-github'></i></i></a>
             </div>
         </div>
-        <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Enter Ur Name" required>
-                <input type="email" placeholder="Enter Ur Email" required>
-                <input type="" placeholder="Enter Ur Subject" required>
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Ur Message" required></textarea>
-                <input type="submit" value="submit" class="send">
+       <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="a5406750-3ea0-4881-9a28-d98b2caa5251">
+                <input type="text" name="name" id="name" placeholder="Enter Ur Name" required>
+                <input type="email" name="email" placeholder="Enter Ur Email" required>
+                <input type="" name="subject" placeholder="Enter Ur Subject" required>
+                <textarea name="message"  cols="40" rows="10" placeholder="Enter Ur Message" required></textarea>
+                <button type="submit" class="send">SUBMIT</button>
             </form>
         </div>
     </section>
